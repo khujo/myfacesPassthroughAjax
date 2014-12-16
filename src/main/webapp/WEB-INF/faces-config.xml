@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE faces-config PUBLIC
+  "-//Sun Microsystems, Inc.//DTD JavaServer Faces Config 1.0//EN"
+  "http://java.sun.com/dtd/web-facesconfig_1_1.dtd" >
+
+<faces-config>
+
+	<!-- managed beans of the simple hello world app -->
+	<managed-bean>
+		<managed-bean-name>helloWorldBacking</managed-bean-name>
+		<managed-bean-class>
+			de.dsi08.myfaces.forward.demo.HelloWorldBacking
+		</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+
+</faces-config>
